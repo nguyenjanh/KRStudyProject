@@ -8,3 +8,5 @@ def convert(filename) :
     for line in reader :
       dict[line[0]] = line[1]
   return dict
+
+#data needs to be manually transported, json doesn't like Korean characters :/
